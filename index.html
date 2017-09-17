@@ -67,7 +67,7 @@
               <div class="form_body">
                 <div class="col-md-3 title">Выбирите стол</div>
                 <div class="col-md-9">
-                  <div class="body">
+                  <div class="body" id="size_table">
                     <div class="input_1"><input type="text" name="long" placeholder="Длина"></div>
                     <div class="input_2"><input type="text" name="width" placeholder="Высота"></div>
                     <div class="input_3"><input type="text" name="height" placeholder="Ширина"></div>
@@ -81,13 +81,28 @@
                 </div>
               </div>
               <div class="form_input">
-                <a href="">Узнайте стоимость со скидкой</a>
+                <a id="link_call_back" data-fancybox data-src="#call_back" href="javascript:;">Узнайте стоимость со скидкой</a>
               </div>
             </form>
           </div>
         </div>
       </div>
     </section>
+
+    <!--PopUp-->
+    <div class="call_back" id="call_back">
+      <form action="">
+        <h4>Мы подберем столы, под Ваши<br>парметры с персональной скидкой</h4>
+        <input type="text" name="phone" required="required" placeholder="Ваш телефон">
+        <input type="text" name="email" required="required" placeholder="Ваш Email">
+        <input type="hidden" name="form" value="Узнать стоимость со скидкой">
+        <input type="hidden" name="data" value="">
+        <input type="submit" name="submit" value="Узнать стоимость со скидкой">
+        <p>Отпраим католог столов со скидкой</p>
+      </form>
+    </div>
+    <!--End PopUp -->
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.mikeinput.min.js"></script>

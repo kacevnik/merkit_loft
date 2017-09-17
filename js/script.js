@@ -5,6 +5,10 @@ jQuery(document).ready(function ($) {
 		$(this).find('.h1_3').width(($(this).outerWidth(true)-$(this).find('.h1_2').outerWidth(true))/2-20);
 	});
 
+	$('#link_call_back').click(function() {
+		$('#call_back input[name="data"]').val('Длина: '+$('#size_table input[name="long"]').val()+' Ширина: '+$('#size_table input[name="width"]').val()+' Высота: '+$('#size_table input[name="height"]').val()+' Тип стола: '+$('#size_table select[name="title_table"]').val())
+	});
+
     $("form").ajaxForm(function(){
 		//$("a[title='Close']").trigger("click");
 		$("form").clearForm();
@@ -22,7 +26,7 @@ jQuery(document).ready(function ($) {
   		navText: ['<div class="arrow_prev_owl"></div>', '<div class="arrow_next_owl"></div>']
   	});
 
-  	$(".phone").mask("+7 (999) 999-99-99");
+  	$('input[name="phone"]').mask("+7 (999) 999-99-99");
 
     $(".header_back").fancybox({
         padding     : 0,
