@@ -6,6 +6,10 @@ body{
 	padding-top: 50px;
 }
 
+.pd_bottom_50{
+	padding-bottom: 50px;
+}
+
 header{
 	background: #fff;
 	min-height: 230px;
@@ -198,6 +202,10 @@ select[name="title_table"]{
 	color: #000;
 }
 
+.form_input a i{
+	margin-right: 15px;
+}
+
 .call_back{
 	display: none;
     width: 330px;
@@ -254,6 +262,14 @@ select[name="title_table"]{
 	text-align: right;
     font-size: 26px;
     font-weight: bold;
+}
+
+#table_riw{
+	background: #f9f9f9;
+}
+
+#table_sleb{
+	background: url(../img/template/back.png);
 }
 
 
