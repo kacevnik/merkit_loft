@@ -2,6 +2,10 @@ body{
 	font-family: 'Open Sans', sans-serif;
 }
 
+.pd_top_50{
+	padding-top: 50px;
+}
+
 header{
 	background: #fff;
 	min-height: 230px;
@@ -223,6 +227,33 @@ select[name="title_table"]{
 .call_back input[type="submit"]:hover{	
     background: #e3e3e3;
     color: #000;
+}
+
+.item{
+	border: 1px solid #b6b6b6;
+	margin: 0 0 40px 0;
+}
+
+.item img{
+	width: 100%;
+}
+
+.item .description{
+	background: #fff;
+    padding: 10px;
+}
+
+.item .name_model{
+	float: left;
+    text-align: left;
+    padding: 10px 0;
+    color: #b6b6b6;
+}
+
+.item .price_model{
+	text-align: right;
+    font-size: 26px;
+    font-weight: bold;
 }
 
 
