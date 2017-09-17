@@ -272,4 +272,29 @@ select[name="title_table"]{
 	background: url(../img/template/back.png);
 }
 
+footer{
+	min-height: 150px;
+	background: #fff;
+	border-top: 2px solid #cecece;
+	font-weight: 300;
+    padding: 55px 0 0 0;
+}
+
+footer ul{
+	list-style: none;
+}
+
+footer .phone, footer .email{
+	font-size: 20px;
+}
+
+footer .email{
+	text-align: center;
+}
+
+footer ul{
+	float: right;
+	margin-right: -15px;
+}
+
 
