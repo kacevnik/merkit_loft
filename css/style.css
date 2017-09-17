@@ -1,0 +1,53 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+header{
+	background: #fff;
+	min-height: 230px;
+}
+
+header ul{
+	list-style: none;
+	padding: 0;
+}
+
+header .logo a{
+	margin: 55px 0 0 0;
+	display: inline-block;
+}
+
+
+header .logo a img{
+	width: 100%;
+}
+
+.header_for_social{
+	padding-top: 100px;
+}
+
+.social li{
+	float: left;
+	margin: 0 20px 0 0;
+}
+
+.social li a{
+	display: block;
+	color: #fff;
+	background: #e3e3e3;
+	font-size: 24px;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	padding: 3px;
+}
+
+.social li a:hover{
+	background: #000;
+}
+
+header .contacts{
+	font-size: 20px;
+	font-weight: 300;
+	margin: 60px 0 0 0;
+}
