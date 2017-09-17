@@ -99,4 +99,99 @@ nav .activ:hover{
 	text-shadow: none;
 }
 
+#select_table{
+	background: url('../img/template/back.png');
+}
+
+h1{
+	text-align: center;
+	text-transform: uppercase;
+	padding: 50px 15px 0 15px;
+	font-size: 40px;
+}
+
+.h1_2{
+	padding: 0 30px;
+}
+
+.h1_1, .h1_3{
+	height: 2px;
+	border-top: 2px solid #000;
+	display: inline-block;
+	margin: 20px 0 10px 0;
+}
+
+.present{
+	padding: 50px 15px 0 15px;
+}
+
+.present img{
+	width: 100%;
+}
+
+.form_body{
+	padding: 50px 0 0 0;
+}
+
+.form_body .title{
+	font-size: 24px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.form_body .body{
+	background: #f9f9f9;
+    padding: 30px;
+    overflow: hidden;
+}
+
+.form_body .body input{
+	padding: 10px 0 10px 38px;
+    border: 1px solid #b6b6b6;
+    width: 90%;
+}
+
+.input_1 input{
+	background: #fff url(../img/template/double-arrow-1.png)no-repeat 10px;
+}
+
+.input_2 input{
+	background: #fff url(../img/template/double-arrow-2.png)no-repeat 10px;
+}
+
+.input_3 input{
+	background: #fff url(../img/template/double-arrow-3.png)no-repeat 10px;
+}
+
+.input_1, .input_2, .input_3{
+	float: left;
+	width: 25%;
+}
+
+select[name="title_table"]{
+	height: 41px;
+	border: 1px solid #b6b6b6;
+}
+
+.form_input{
+	text-align: center;
+}
+
+.form_input a{
+	background: #000;
+    border: 2px solid #000;
+    color: #fff;
+    padding: 13px 30px;
+    display: inline-block;
+    margin: 30px 0;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.form_input a:hover{
+	text-decoration: none;
+	background: #e3e3e3;
+	color: #000;
+}
+
 

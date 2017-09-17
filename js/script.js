@@ -1,5 +1,10 @@
 jQuery(document).ready(function ($) {
 
+	$('h1').each(function(index, el) {
+		$(this).find('.h1_1').width(($(this).outerWidth(true)-$(this).find('.h1_2').outerWidth(true))/2-20);
+		$(this).find('.h1_3').width(($(this).outerWidth(true)-$(this).find('.h1_2').outerWidth(true))/2-20);
+	});
+
     $("form").ajaxForm(function(){
 		//$("a[title='Close']").trigger("click");
 		$("form").clearForm();
