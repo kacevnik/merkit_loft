@@ -377,6 +377,19 @@ footer ul{
 .exemple_table .info_name{
     width: 60%;
     float: left;
+    padding: 0 0 0 45px;
+}
+
+.exemple_table .long{
+   background: #fff url(../img/template/double-arrow-1.png)no-repeat 10px;
+}
+
+.exemple_table .width{
+   background: #fff url(../img/template/double-arrow-2.png)no-repeat 10px;
+}
+
+.exemple_table .height{
+   background: #fff url(../img/template/double-arrow-3.png)no-repeat 10px;
 }
 
 .exemple_table .info_desc{
@@ -401,6 +414,10 @@ footer ul{
     background: #b6b6b6;
     color: #fff;
     text-decoration: none;
+}
+
+.exemple_table .sell i{
+    margin-right: 10px;
 }
 
 .arrow_prev_owl{
