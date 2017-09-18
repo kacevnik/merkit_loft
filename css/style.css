@@ -2,6 +2,8 @@ body{
 	font-family: 'Open Sans', sans-serif;
 }
 
+a:active, a:focus { outline: none; }
+
 .pd_top_50{
 	padding-top: 50px;
 }
@@ -295,6 +297,128 @@ footer .email{
 footer ul{
 	float: right;
 	margin-right: -15px;
+}
+
+.exemple_table{
+	display: none;
+	width: 860px;
+    padding: 0;
+    min-height: 498px;
+    overflow: hidden;
+}
+
+.exemple_table .images{
+	width: 60%;
+    float: left;
+    height: 100%;
+}
+
+.exemple_table .body{
+	width: 40%;
+    float: left;
+    height: 100%;
+    min-height: 498px;
+    position: relative;
+}
+
+.exemple_table .body_info{
+	padding: 40px;
+    height: 100%;
+}
+
+.exemple_table .body_info h1{
+    margin: 0 0 0 0;
+    padding: 20px 0 0 0;
+    text-align: left;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.exemple_table .body_info h5{
+	font-size: 20px;
+    font-weight: 100;
+}
+
+.exemple_table .info{
+    overflow: hidden;
+    margin: 0 0 20px 0;
+}
+
+.exemple_table .info .price{
+    font-size: 34px;
+    font-weight: bold;
+    float: left;
+    width: 60%;
+}
+
+.exemple_table .info .order{
+    color: #b6b6b6;
+    font-weight: 300;
+    padding: 20px 0 0 0;
+    width: 40%;
+    float: left;
+}
+
+.exemple_table .info .order{
+    color: #b6b6b6;
+    font-weight: 300;
+    padding: 20px 0 0 0;
+    width: 40%;
+    float: left;
+}
+
+.exemple_table .row{
+	font-weight: 300;
+	overflow: hidden;
+    font-size: 20px;
+    margin: 0 0 10px 0;
+}
+
+.exemple_table .info_name{
+    width: 60%;
+    float: left;
+}
+
+.exemple_table .info_desc{
+    width: 40%;
+    float: left;
+}
+
+.exemple_table .sell{
+	text-decoration: none;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+    background: #000;
+    width: 100%;
+}
+
+.exemple_table .sell:hover{
+    background: #b6b6b6;
+    color: #fff;
+    text-decoration: none;
+}
+
+.arrow_prev_owl{
+	background: url('../img/template/arrow-left.png')no-repeat;
+	position: absolute;
+    top: 43%;
+    left: 15px;
+    width: 59px;
+    height: 102px;
+}
+
+.arrow_next_owl{
+	background: url('../img/template/arrow-right.png')no-repeat;
+	position: absolute;
+    top: 43%;
+    right: 15px;
+    width: 59px;
+    height: 102px;
 }
 
 

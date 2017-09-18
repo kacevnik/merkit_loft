@@ -26,18 +26,10 @@ jQuery(document).ready(function ($) {
   		navText: ['<div class="arrow_prev_owl"></div>', '<div class="arrow_next_owl"></div>']
   	});
 
-  	$('input[name="phone"]').mask("+7 (999) 999-99-99");
+  	$("[data-fancybox]").fancybox({
+  		padding: '300px'
+	});
 
-    $(".header_back").fancybox({
-        padding     : 0,
-        height      : 410,
-        maxWidth    : 320,
-        fitToView   : false,
-        width       : '70%',
-        autoSize    : false,
-        closeClick  : false,
-        openEffect  : 'none',
-        closeEffect : 'none'
-    });
+  	$('input[name="phone"]').mask("+7 (999) 999-99-99");
 
 });
