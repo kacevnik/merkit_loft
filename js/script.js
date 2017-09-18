@@ -1,4 +1,5 @@
 jQuery(document).ready(function ($) {
+	new WOW().init();
 
 	$('h1').each(function(index, el) {
 		$(this).find('.h1_1').width(($(this).outerWidth(true)-$(this).find('.h1_2').outerWidth(true))/2-20);
