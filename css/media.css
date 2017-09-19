@@ -1,14 +1,114 @@
-// Extra small devices (portrait phones, less than 576px)
-// No media query since this is the default in Bootstrap
 
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
+@media (min-width: 576px) {}
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
+@media (min-width: 768px) {}
 
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
+@media (max-width: 992px) {
+	.header_for_social{
+		display: none;
+	}
 
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
+	.logo{
+		text-align: center;
+	}
+
+	header .contacts{
+		text-align: center;
+    	margin: 30px 0 48px;
+	}
+
+	nav ul li {
+	    float: none;
+	    border-bottom: 2px solid #e3e3e3;
+	    text-align: center;
+	}	
+
+	nav ul li:last-child{
+	    border-bottom: none;
+	}
+
+	nav ul li a {
+	    border-right: none;
+	}
+
+	.form_body .title {
+	    text-align: center;
+	    font-size: 38px;
+	    margin: 0 0 20px 0;
+	}
+
+	select[name="title_table"] {
+	    width: 25%;
+	}
+
+	footer .phone, footer .email {
+	    text-align: center;
+	}
+
+	footer {
+	    padding: 55px 0 51px 0;
+	}
+
+	footer ul {
+	    float: none;
+	    margin: 30px auto;
+	    width: 35%;
+	}
+}
+
+@media (max-width: 890px) {
+	.exemple_table {
+	    width: 330px;
+	    padding: 0 0 0 0;
+	}
+
+	.exemple_table .images {
+    	width: 100%;
+	}
+
+	.exemple_table .body {
+	    width: 100%;
+	    min-height: 401px;
+	}
+
+	.exemple_table .body_info {
+	    padding: 20px;
+	    height: 100%;
+	}
+}
+
+@media (max-width: 600px) {
+	footer ul {
+	    width: 42%;
+	}
+
+	.h1_1, .h1_3 {
+	    display: none;
+	}	
+
+	.h1_2 {
+	    padding: 0px;
+	}
+}
+
+@media (max-width: 554px) {
+	footer ul {
+	    width: 47%;
+	}
+}
+
+@media (max-width: 500px) {
+	footer ul {
+	    width: 70%;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+	nav ul li a {
+		font-size: 14px;
+	}
+
+	.input_1, .input_2, .input_3 {
+    	width: 21%;
+	}
+}
