@@ -2,14 +2,14 @@
 
 require 'PHPMailer/PHPMailerAutoload.php';
 
-
+//sleb.kedr@gmail.com
 // ==== Принудительный захват массива переменных ==========================
 // ==== раскомментировать, если письма отправляются без значений полей ====
 $text = '';
-$adminEmail = '';
-$email = $_POST['email'];     if($email){$text = 'Имя пользователя: '.$email.'<br>';}
+$adminEmail = 'kacevnik@yandex.ru';
+$email = $_POST['email'];     if($email){$text = 'E-mail пользователя: '.$email.'<br>';}
 $phone = $_POST['phone'];     if($phone){$text = $text.'Телефон пользователя: '.$phone.'<br>';}
-$message = $_POST['message']; if($message){$text = $text.'Сообщение: '.$message.'<br>';}
+$data = $_POST['data'];       if($data){$text = $text.'Данные: '.$data.'<br>';}
 $form = $_POST['form'];
 
 
@@ -26,7 +26,7 @@ $mail->Password = 'Z9564665z';                        // SMTP password
 $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 465;                                    // TCP port to connect to
 
-$mail->setFrom('prof.zabor-nvs@mail.ru', 'Сиб-Стройка.рф');
+$mail->setFrom('prof.zabor-nvs@mail.ru', 'Столы под заказ');
 $mail->addAddress($adminEmail, $adminEmail);          // Add a recipient            
 
 $mail->isHTML(true);                                  // Set email format to HTML

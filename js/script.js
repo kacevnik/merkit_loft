@@ -18,11 +18,10 @@ jQuery(document).ready(function ($) {
 		$('#call_back_more input[name="data"]').val($(this).attr('data-data'));
 	});
 
-    $("form").ajaxForm(function(){
+    $('form').ajaxForm(function(){
 		//$("a[title='Close']").trigger("click");
-		$("form").clearForm();
-		$(".fancybox-close-small").trigger("click");
-		$("#modal_view_thanks").trigger("click");		
+		$('form').clearForm();
+		$(".fancybox-close-small").trigger("click");		
 	});
 
   	$(".owl-carousel").owlCarousel({
